@@ -1,19 +1,19 @@
-10/11 21:47:50.352  CGxDevice::DeviceAdapterID(): RET: 1, VID: 10de, DID: 193, DVER: 0.0
-10/11 21:47:50.392  CGxDevice::DeviceAdapterInfer(): RET: 1, DID: 2
-10/11 21:47:50.392  DetectHardware():
-10/11 21:47:50.392  	cpuIdx: 1
-10/11 21:47:50.392  	videoID: 170
-10/11 21:47:50.392  	soundIdx: 0
-10/11 21:47:50.392  	memIdx: 0
-10/11 21:47:50.447  ConsoleDeviceInitialize(): hwDetect = 0, hwChanged = 0
-10/11 21:47:50.477  CGxDeviceD3d::DeviceSetFormat():
-10/11 21:47:50.477  	Format: 1024 x 768 Window, Ds24X, multisample 8
-10/11 21:47:50.532  Caps:
-10/11 21:47:50.532  	numTmus: 8
-10/11 21:47:50.532  	generateMipMaps: 1
-10/11 21:47:50.532  	texFilterAnisotropic: 1, 16
-10/11 21:47:50.532  	rttFormat: 1, 1
-10/11 21:47:50.532  	pixelShaderTarget: 4
-10/11 21:47:50.532  	vertexShaderTarget: 1
-10/11 21:47:50.532  	vertexShaderConstants: 256
-10/11 21:47:50.532  	numStreams: 16
+11/27 18:04:58.236  CGxDevice::DeviceAdapterID(): RET: 1, VID: 10de, DID: 28a1, DVER: 0.0
+11/27 18:04:58.588  CGxDevice::DeviceAdapterInfer(): RET: 1, DID: 2
+11/27 18:04:58.588  DetectHardware():
+11/27 18:04:58.588  	cpuIdx: 1
+11/27 18:04:58.588  	videoID: 170
+11/27 18:04:58.588  	soundIdx: 0
+11/27 18:04:58.588  	memIdx: 0
+11/27 18:04:58.718  ConsoleDeviceInitialize(): hwDetect = 1, hwChanged = 0
+11/27 18:04:58.884  CGxDeviceD3d::DeviceSetFormat():
+11/27 18:04:58.884  	Format 1024 x 768 @ 60 Fullscreen, ArgbX888, Ds24X, multisample 1
+11/27 18:04:59.754  Caps:
+11/27 18:04:59.754  	numTmus: 8
+11/27 18:04:59.754  	generateMipMaps: 1
+11/27 18:04:59.754  	texFilterAnisotropic: 1, 16
+11/27 18:04:59.754  	rttFormat: 1, 1
+11/27 18:04:59.754  	pixelShaderTarget: 4
+11/27 18:04:59.754  	vertexShaderTarget: 1
+11/27 18:04:59.754  	vertexShaderConstants: 256
+11/27 18:04:59.754  	numStreams: 16

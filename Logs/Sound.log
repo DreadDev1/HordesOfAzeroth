@@ -1,11 +1,11 @@
-10/11 21:47:51.874  Sound::Initialize()
-10/11 21:47:51.874  fmod.dll version 3.75 loaded
-10/11 21:47:51.894  memory system configured: SMem wrappers
-10/11 21:47:51.963  Output system: 2 'Direct Sound'
-10/11 21:47:51.963  Driver: 0 'Primär ljuddrivrutin' 00000000
-10/11 21:47:51.963  Mixer: 0 'MMXP6'
-10/11 21:47:51.963  Buffer size: 50ms
-10/11 21:47:51.963  Channels: 12 (12 software, 0 2D hardware(dsound), 0 3D hardware)
-10/11 21:47:51.963  Output rate: 44100 Hz
-10/11 21:47:51.963  Initialization flags: 00000082
-10/11 21:47:51.963  Sound::Initialize() complete
+11/27 18:05:01.118  Sound::Initialize()
+11/27 18:05:01.118  fmod.dll version 3.75 loaded
+11/27 18:05:01.149  memory system configured: SMem wrappers
+11/27 18:05:01.204  Output system: 2 'Direct Sound'
+11/27 18:05:01.204  Driver: 0 'Primary Sound Driver' 00000000
+11/27 18:05:01.204  Mixer: 0 'MMXP6'
+11/27 18:05:01.204  Buffer size: 50ms
+11/27 18:05:01.204  Channels: 12 (12 software, 0 2D hardware(dsound), 0 3D hardware)
+11/27 18:05:01.204  Output rate: 44100 Hz
+11/27 18:05:01.204  Initialization flags: 00000082
+11/27 18:05:01.204  Sound::Initialize() complete
