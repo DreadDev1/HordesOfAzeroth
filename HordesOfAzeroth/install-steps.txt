@@ -1,0 +1,5 @@
+Download the game files
+Set up the game
+Read the maps
+Build the spell effects
+Set up the database

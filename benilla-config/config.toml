@@ -1,0 +1,12 @@
+[cvars]
+readEULA = "1"
+readTOS = "1"
+realmName = "Hordes of Azeroth"
+accountName = "player"
+movie = "0"
+showTutorials = "0"
+MasterVolume = "0.2"
+cameraDistanceMaxFactor = "2"
+UnitNameNPC = "1"
+cameraSmoothStyle = "0"
+realmList = "127.0.0.1"
