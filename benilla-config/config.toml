@@ -1,12 +1,14 @@
+# benilla local config — CVar values that moved off their defaults.
+# Managed by the client; hand edits are read on next launch and preserved on save.
 [cvars]
+MasterVolume = "0.2"
+accountName = "player"
+cameraDistanceMaxFactor = "2"
+cameraSmoothStyle = "0"
+gameTip = "1"
+movie = "0"
 readEULA = "1"
 readTOS = "1"
-realmName = "Hordes of Azeroth"
-accountName = "player"
-movie = "0"
-showTutorials = "0"
-MasterVolume = "0.2"
-cameraDistanceMaxFactor = "2"
-UnitNameNPC = "1"
-cameraSmoothStyle = "0"
 realmList = "127.0.0.1"
+realmName = "Hordes of Azeroth"
+showTutorials = "0"

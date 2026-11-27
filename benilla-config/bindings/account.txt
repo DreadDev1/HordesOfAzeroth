@@ -1,0 +1,7 @@
+# benilla key bindings — diff vs defaults
+bind ASSISTTARGET
+bind ATTACKTARGET
+bind TOGGLETALENTS
+bind VANILLABONK_INTERACT F
+bind VANILLABONK_HEARTH T
+bind VANILLABONK_INSPECT N

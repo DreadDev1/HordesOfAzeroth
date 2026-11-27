@@ -1,0 +1,3 @@
+BONK_ACCOUNT = "PLAYER";
+BONK_PASSWORD = "player";
+HOA_LANGUAGE = "enUS";
