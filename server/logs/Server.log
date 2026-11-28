@@ -1,4 +1,4 @@
-2026-11-27 00:04:43 
+2026-11-27 23:33:57 
 
 MM     MM MM   MM         MM   MM  MMMMM   MMMMM   MMMMM
 MM     MM MM   MM         MM   MM MMM MMM MM   MM MMM MMM
@@ -13,836 +13,835 @@ MM     MM MM   MM         MM   MM MMM MMM MM   MM MMM MMM
                           https://github.com/vmangos
 
 
-2026-11-27 00:04:43 Core revision: 6da0998783051403af57 / 2026-11-04 22:07:39 +0100 / Win64 (little-endian) [world-daemon]
-2026-11-27 00:04:43 <Ctrl-C> to stop.
-2026-11-27 00:04:43 Using configuration file mangosd.conf
-2026-11-27 00:04:43 World Database: 127.0.0.1;3306;mangos;*;mangos, sync threads: 1, workers: 1
-2026-11-27 00:04:43 WARNING! Database `mangos` has the following extra migrations:
-2026-11-27 00:04:43 	20261017100000
-2026-11-27 00:04:43 	20261030130000
-2026-11-27 00:04:43 Character Database: 127.0.0.1;3306;mangos;*;characters, sync threads: 1, workers: 1
-2026-11-27 00:04:43 Login Database: 127.0.0.1;3306;mangos;*;realmd, sync threads: 1, workers: 1
-2026-11-27 00:04:43 Logs Database: 127.0.0.1;3306;mangos;*;logs, sync threads: 1, workers: 1
-2026-11-27 00:04:43 
-2026-11-27 00:04:43 World server is running realm ID: 1 Name: "Hordes of Azeroth"
-2026-11-27 00:04:43 
-2026-11-27 00:04:43 Using HonorDir ../logs/
-2026-11-27 00:04:43 Using DataDir ../data/
-2026-11-27 00:04:43 WORLD: VMap support included. LineOfSight:1, getHeight:1, indoorCheck:1
-2026-11-27 00:04:43 WORLD: VMap data directory is: ../data/vmaps
-2026-11-27 00:04:43 WORLD: mmap pathfinding enabled
-2026-11-27 00:04:43 * Anticrash : options 0x1c rearm after 60sec
-2026-11-27 00:04:43 * Pathfinding : [ON]
-2026-11-27 00:04:43 
-2026-11-27 00:04:43 Loading MaNGOS strings...
-2026-11-27 00:04:43 
-2026-11-27 00:04:43 >> Loaded 976 MaNGOS strings from table mangos_string
-2026-11-27 00:04:44 Loading Instance Statistics...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 > Loading table `instance_wipes`
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Table instance_wipes is empty.
-2026-11-27 00:04:44 > Loading table `instance_creature_kills`
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Table instance_creature_kills is empty.
-2026-11-27 00:04:44 > Loading table `instance_custom_counters`
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Table `instance_custom_counters` is empty.
-2026-11-27 00:04:44 Loading saved variables ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 16 saved variables
-2026-11-27 00:04:44 Loading GM security access ...
-2026-11-27 00:04:44 Loading account_banned ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 0 account bans
-2026-11-27 00:04:44 Loading ip_banned ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 0 ip bans
-2026-11-27 00:04:44 Loading Script Names...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 742 Script Names
-2026-11-27 00:04:44 Loading spells ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 33703 spells in 170ms.
-2026-11-27 00:04:44 Loading factions ...
-2026-11-27 00:04:44 >> Loaded 190 factions.
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading faction tamplates ...
-2026-11-27 00:04:44 >> Loaded 314 faction templates.
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading sounds ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 4623 sound entries.
-2026-11-27 00:04:44 Loading taxi nodes ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 88 taxi nodes.
-2026-11-27 00:04:44 Loading area triggers ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 449 area triggers.
-2026-11-27 00:04:44 Loading skill line abilities ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 15031 skill line abilities.
-2026-11-27 00:04:44 Loading mail text templates ...
-2026-11-27 00:04:44 >> Loaded 96 mail text templates
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading pet spell data ...
-2026-11-27 00:04:44 >> Loaded 315 pet spell lists
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading world safe locs facing values ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 94 world safe locs facing values
-2026-11-27 00:04:44 Initialize data stores...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Initialized 45 data stores
-2026-11-27 00:04:44 Using enUS DBC Locale as default. All available DBC locales: enUS 
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading MapTemplate...
-2026-11-27 00:04:44 >> Loaded 44 Map Template definitions
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading AreaTemplate...
-2026-11-27 00:04:44 Loading `spell_mod` and `spell_effect_mod`...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading spell mods ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 524 spell modifications.
-2026-11-27 00:04:44 Loading spell effect mods ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 414 spell effect modifications.
-2026-11-27 00:04:44 Loading SkillLineAbilityMultiMaps Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 5072 SkillLineAbility MultiMaps Data
-2026-11-27 00:04:44 Loading SkillRaceClassInfoMultiMap Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 148 SkillRaceClassInfo MultiMap Data
-2026-11-27 00:04:44 Cleaning up instances...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Instances cleaned up
-2026-11-27 00:04:44 Packing instances...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Instance numbers remapped, next instance id is 100
-2026-11-27 00:04:44 Packing groups...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Group Ids remapped, next group id is 1
-2026-11-27 00:04:44 Scheduling normal instance reset...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Broadcast Texts...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 11124 broadcast texts.
-2026-11-27 00:04:44 Loading Page Texts...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 1257 page texts
-2026-11-27 00:04:44 Loading Game Object Templates...
-2026-11-27 00:04:44 ERROR: Gameobject (Entry: 148500 GoType: 1) have data3=148501 but GO (Entry 148501) have not GAMEOBJECT_TYPE_TRAP (6) type.
-2026-11-27 00:04:44 >> Loaded 9400 gameobject definitions
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Transport templates...
-2026-11-27 00:04:44 Loading Spell Chain Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 2851 spell chain records (1784 from DBC data with 2 req field updates, and 1067 loaded from table)
-2026-11-27 00:04:44 Loading Spell Elixir types...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 60 spell elixir definitions
-2026-11-27 00:04:44 Loading Spell Learn Skills...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 58 Spell Learn Skills from DBC
-2026-11-27 00:04:44 Loading Spell Learn Spells...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 5 spell learn spells + 4735 found in DBC
-2026-11-27 00:04:44 Loading Spell Proc Event conditions...
-2026-11-27 00:04:44 Spell 6346 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
-2026-11-27 00:04:44 Spell 11119 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 180 extra spell proc event conditions +19 custom proc (inc. +0 custom ranks)
-2026-11-27 00:04:44 Loading Spell Proc Item Enchant...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 4 proc item enchant definitions
-2026-11-27 00:04:44 Loading Aggro Spells Definitions...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 411 spell threat entries
-2026-11-27 00:04:44 Loading Spell Enchant Charges...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 19 spell enchant charges
-2026-11-27 00:04:44 Loading NPC Texts...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 3051 npc texts
-2026-11-27 00:04:44 Loading Item Random Enchantments Table...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 27686 Item Enchantment definitions
-2026-11-27 00:04:44 Loading Items...
-2026-11-27 00:04:44 >> Loaded 19725 item prototypes
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Item Texts...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 0 item pages
-2026-11-27 00:04:44 Loading Creature Display Info Addon...
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18375).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18376).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18377).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18378).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18379).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18380).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18381).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18382).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18383).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18384).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18385).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18386).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18387).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18388).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18389).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18390).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18391).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18392).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18393).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18394).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18395).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18396).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18397).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18398).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18399).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18586).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18587).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18588).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18589).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18590).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18591).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18592).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18593).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18594).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18595).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18596).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18597).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18598).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18599).
-2026-11-27 00:04:44 >> Loaded 11144 creature display based info
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Equipment templates...
-2026-11-27 00:04:44 >> Loaded 5140 equipment template
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Creature spells...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 2644 creature spell templates.
-2026-11-27 00:04:44 Loading Creature class level stats...
-2026-11-27 00:04:44 Loading Creature templates...
-2026-11-27 00:04:44 >> Loaded 10437 creature definitions
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading SpellsScriptTarget...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 1008 Spell Script Targets
-2026-11-27 00:04:44 Loading ItemRequiredTarget...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 37 Item required targets
-2026-11-27 00:04:44 Loading Reputation Reward Rates...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded `reputation_reward_rate`, table is empty!
-2026-11-27 00:04:44 Loading Creature Reputation OnKill Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 640 creature award reputation definitions
-2026-11-27 00:04:44 Loading Reputation Spillover Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 7 reputation_spillover_template
-2026-11-27 00:04:44 Loading Points Of Interest Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 250 Points of Interest definitions
-2026-11-27 00:04:44 Loading Creature Charm Spells...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 2638 creature charm spells
-2026-11-27 00:04:44 Loading Pet Create Spells...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 7 pet create spells from table and 332 from DBC
-2026-11-27 00:04:44 Loading Creature Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 66256 creatures
-2026-11-27 00:04:44 Loading Creature Addon Data...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 3417 creature addons
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >>> Creature Addon Data loaded
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 Loading Creature Groups ...
-2026-11-27 00:04:44 
-2026-11-27 00:04:44 >> Loaded 5781 creature groups in 4 ms
-2026-11-27 00:04:44 Loading Gameobject Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 56628 gameobjects
-2026-11-27 00:04:45 Loading Gameobject Requirements...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 19 GameObjects requirements
-2026-11-27 00:04:45 Loading Gameobject Display Info Addon...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1618 GameObject display based info
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading CreatureLinking Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 > Loading table `creature_linking_template`
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded creature linking for 13 creature-entries
-2026-11-27 00:04:45 > Loading table `creature_linking`
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded creature linking for 407 creature-Guids
-2026-11-27 00:04:45 Loading Objects Pooling Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 7423 objects pools
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 370 creatures in pools from `pool_creature` and `pool_creature_template`
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 32550 gameobject in pools from `pool_gameobject` and `pool_gameobject_template`
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 5583 pools in mother pools
-2026-11-27 00:04:45 Loading Weather Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 33 weather definitions
-2026-11-27 00:04:45 Loading Quests...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 4433 quests definitions
-2026-11-27 00:04:45 Loading Quests Relations...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 262 quest relations from gameobject_questrelation
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 209 quest relations from gameobject_involvedrelation
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 3898 quest relations from creature_questrelation
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 4060 quest relations from creature_involvedrelation
-2026-11-27 00:04:45 >>> Quests Relations loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Quests Greetings...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 204 quest greetings.
-2026-11-27 00:04:45 Loading Trainer Greetings...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 491 trainer greetings.
-2026-11-27 00:04:45 Loading Game Event Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 94 game events
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 3052 creatures in game events
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 12102 gameobjects in game events
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 576 creature reactions at game events
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 69 quest additions in game events
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 start/end game event mails
-2026-11-27 00:04:45 >>> Game Event Data loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Conditions ...
-2026-11-27 00:04:45 >> Loaded 1882 Condition definitions
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Creature Respawn Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 creature respawn time.
-2026-11-27 00:04:45 Loading Gameobject Respawn Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 gameobject respawn time.
-2026-11-27 00:04:45 Loading SpellArea Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 71 spell area requirements
-2026-11-27 00:04:45 Loading AreaTrigger teleports...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 115 area trigger teleport definitions
-2026-11-27 00:04:45 Loading Quest Area Triggers...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 50 quest trigger points
-2026-11-27 00:04:45 Loading Tavern Area Triggers...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 42 tavern triggers
-2026-11-27 00:04:45 Loading Battleground Entrance Area Triggers...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 6 battleground entrance area trigger definitions
-2026-11-27 00:04:45 Loading AreaTrigger script names...
-2026-11-27 00:04:45 areatrigger_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2 script definitions
-2026-11-27 00:04:45 Loading event id script names...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 7 scripted event id
-2026-11-27 00:04:45 Loading Graveyard-zone links...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 189 graveyard-zone links
-2026-11-27 00:04:45 Loading spell target destination coordinates...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 307 spell target destination coordinates
-2026-11-27 00:04:45 Loading spell pet auras...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 23 spell pet auras
-2026-11-27 00:04:45 Loading spell cones...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 102 spell cones
-2026-11-27 00:04:45 Loading Player Create Info & Level Stats...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 40 player create definitions
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 256 custom player create items
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1513 player create spells
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 214 player create actions
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 540 level health/mana definitions
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2400 level stats definitions
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 60 xp for level definitions
-2026-11-27 00:04:45 >>> Player Create Info & Level Stats loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Exploration BaseXP Data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 61 BaseXP definitions
-2026-11-27 00:04:45 Loading Pet Name Parts...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 260 pet name parts
-2026-11-27 00:04:45 Cleaning character database...
-2026-11-27 00:04:45 Loading character cache data...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 cached player data ...
-2026-11-27 00:04:45 Loading the max pet number...
-2026-11-27 00:04:45 Loading pet level stats...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 483 level pet stats definitions
-2026-11-27 00:04:45 Loading Player Corpses...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 corpses
-2026-11-27 00:04:45 Loading Loot Tables...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 creature_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 227232 loot definitions (4144 templates)
-2026-11-27 00:04:45 fishing_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2484 loot definitions (360 templates)
-2026-11-27 00:04:45 gameobject_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 13839 loot definitions (574 templates)
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 753 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2599 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2573 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9937 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9946 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9952 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9943 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2596 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2595 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2594 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2597 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 14733 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 17461 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 item_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2662 loot definitions (182 templates)
-2026-11-27 00:04:45 mail_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 72 loot definitions (72 templates)
-2026-11-27 00:04:45 pickpocketing_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 6901 loot definitions (1559 templates)
-2026-11-27 00:04:45 skinning_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2968 loot definitions (822 templates)
-2026-11-27 00:04:45 disenchant_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 81 loot definitions (36 templates)
-2026-11-27 00:04:45 reference_loot_template :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 9976 loot definitions (621 templates)
-2026-11-27 00:04:45 >>> Loot Tables loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Skill Fishing base level requirements...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 56 areas for fishing base skill level
-2026-11-27 00:04:45 Loading Npc Text Id...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 8 NpcTextId 
-2026-11-27 00:04:45 Loading Gossip scripts...
-2026-11-27 00:04:45 gossip_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 522 script definitions
-2026-11-27 00:04:45 Loading Gossip menus...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 3253 gossip_menu entries
-2026-11-27 00:04:45 Loading Gossip menu options...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2654 gossip_menu_option entries
-2026-11-27 00:04:45 Loading Vendors...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 589 vendor template items
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 13161 vendor items
-2026-11-27 00:04:45 Loading Trainers...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1382 trainer template spells
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 4670 trainer spells
-2026-11-27 00:04:45 Loading Waypoint scripts...
-2026-11-27 00:04:45 creature_movement_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1788 script definitions
-2026-11-27 00:04:45 Loading Waypoints...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Paths loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Waypoints and behaviors loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >>> Loaded 3330 paths, 76370 nodes and 0 behaviors
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Path templates loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Waypoint templates loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >>> Loaded 288 path templates with 9648 nodes and 0 behaviors
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Paths loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Special waypoints loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >>> Loaded 88 paths, 1496 nodes and 0 behaviors
-2026-11-27 00:04:45 Loading Localization strings...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 11046 broadcast text locales.
-2026-11-27 00:04:45 Table `locales_creature` has data for not existed creature entry 900150, skipped.
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 10372 creature locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 8667 gameobject locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 19512 item locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 4251 quest locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1238 PageText locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1458 gossip_menu_option locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 195 points_of_interest locale strings
-2026-11-27 00:04:45 >> Loaded 1081 area locale strings
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 48 areatrigger locale strings
-2026-11-27 00:04:45 >>> Localization strings loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Auctions...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 auction items
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 auctions. DB table `auction` is empty.
-2026-11-27 00:04:45 >>> Auctions loaded
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 Loading Guilds...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 guild definitions
-2026-11-27 00:04:45 Loading Petitions...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 petitions
-2026-11-27 00:04:45 Loading Groups...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 0 group definitions
-2026-11-27 00:04:45 Loading ReservedNames...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 9 reserved player names
-2026-11-27 00:04:45 Loading GameObjects for quests...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 666 GameObjects for quests
-2026-11-27 00:04:45 Loading BattleMasters...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 24 battlemaster entries
-2026-11-27 00:04:45 Loading BattleGround event indexes...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 2399 battleground eventindexes
-2026-11-27 00:04:45 Loading GameTeleports...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 997 GameTeleports
-2026-11-27 00:04:45 Loading Taxi path transitions...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 355 taxi path transitions
-2026-11-27 00:04:45 Loading GM tickets and surveys...
-2026-11-27 00:04:45 >> Loaded 0 GM tickets. DB table `gm_ticket` is empty!
-2026-11-27 00:04:45 >> Loaded GM Survey count from database in 1 ms
-2026-11-27 00:04:45 Returning old mails...
-2026-11-27 00:04:45 Loading Scripts...
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 quest_start_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 666 script definitions
-2026-11-27 00:04:45 quest_end_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 1696 script definitions
-2026-11-27 00:04:45 spell_scripts :
-2026-11-27 00:04:45 
-2026-11-27 00:04:45 >> Loaded 40 script definitions
-2026-11-27 00:04:46 creature_spells_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 18 script definitions
-2026-11-27 00:04:46 gameobject_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 139 script definitions
-2026-11-27 00:04:46 event_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 379 script definitions
-2026-11-27 00:04:46 generic_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 3057 script definitions
-2026-11-27 00:04:46 creature_ai_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 7331 script definitions
-2026-11-27 00:04:46 areatrigger_scripts :
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 2 script definitions
-2026-11-27 00:04:46 >>> Scripts loaded
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Checking all script texts...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading CreatureEventAI Events...
-2026-11-27 00:04:46 CreatureEventAI:  Creature 15262 is using percentage event(1526204) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
-2026-11-27 00:04:46 CreatureEventAI:  Creature 15338 is using percentage event(1533804) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 6179 CreatureEventAI events.
-2026-11-27 00:04:46 Initializing Scripts...
-2026-11-27 00:04:46 Loading Script Texts...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 46 string templates from script_texts
-2026-11-27 00:04:46 Loading Script Texts additional data...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 46 additional Script Texts data.
-2026-11-27 00:04:46 Loading Custom Texts...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 0 string templates. DB table `custom_texts` is empty.
-2026-11-27 00:04:46 Loading Custom Texts additional data...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 0 additional Custom Texts data. DB table `custom_texts` is empty.
-2026-11-27 00:04:46 Loading Script Waypoints for 69 creature(s)...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 3086 Script Waypoint nodes.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 1 Escort Creature Data
-2026-11-27 00:04:46 Loading C++ scripts
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 742 C++ Scripts.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading aura removal on map change definitions
-2026-11-27 00:04:46 > Loading table `instance_buff_removal`
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Table instance_buff_removal is empty.
-2026-11-27 00:04:46 DEBUG:: Initialize game time and timers
-2026-11-27 00:04:46 Loading GameObject models ...
-2026-11-27 00:04:46 Starting Map System
-2026-11-27 00:04:46 Starting BattleGround System
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 3 battlegrounds
-2026-11-27 00:04:46 Starting ZoneScripts
-2026-11-27 00:04:46 Deleting expired bans...
-2026-11-27 00:04:46 Initialize Honor Maintenance system...
-2026-11-27 00:04:46 Starting Game Event system...
-2026-11-27 00:04:46 Next game event check in 86401 seconds.
-2026-11-27 00:04:46 Game Event system initialized.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading disabled spells
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 1 disabled spells from `spell_disabled`
-2026-11-27 00:04:46 Loading anticheat library
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading warden checks...
-2026-11-27 00:04:46 >> 97 Warden scans loaded from world database
-2026-11-27 00:04:46 >> 12 scripted Warden scans loaded from anticheat module
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading warden modules...
-2026-11-27 00:04:46 Loading auto broadcast
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 0 AutoBroadCast message
-2026-11-27 00:04:46 Loading Vanilla Bonk tables
-2026-11-27 00:04:46 >> Loaded 3 Bonk tiers
-2026-11-27 00:04:46 >> Loaded 5 Bonk enemy archetypes
-2026-11-27 00:04:46 >> Loaded 18 Bonk timeline blocks
-2026-11-27 00:04:46 >> Loaded 6 Bonk scaling points
-2026-11-27 00:04:46 >> Loaded 32 Bonk maps
-2026-11-27 00:04:46 >> Loaded world map art for 29 Bonk zones
-2026-11-27 00:04:46 >> Loaded 817 Bonk map creatures
-2026-11-27 00:04:46 >> Loaded 128 Bonk map events
-2026-11-27 00:04:46 >> Loaded 15 Bonk keywords
-2026-11-27 00:04:46 >> Loaded 0 Bonk projectiles.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 501 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 504 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 506 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 507 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 514 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 515 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 520 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 521 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 524 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 525 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 526 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 527 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 601 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 610 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 611 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 614 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 615 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 632 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 633 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 634 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 635 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 703 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 718 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 719 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 801 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 803 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 807 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 809 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 810 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 811 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 812 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 817 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 818 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 821 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 822 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 829 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 830 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 831 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 832 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 833 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 834 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 835 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 836 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 837 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 838 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 906 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 923 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 924 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1007 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1008 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1011 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1012 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1026 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1027 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1028 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1029 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1034 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1035 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1036 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1037 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 713 applies no keyword, so more stacks would do nothing; skipped.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 710 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 732 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 733 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 802 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 803 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 807 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 819 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 820 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 821 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 822 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 829 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 830 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 >> Loaded 315 Bonk weapons with 799 upgrades
-2026-11-27 00:04:46 >> Loaded 18 Bonk passives
-2026-11-27 00:04:46 >> Loaded 7 Bonk power-ups
-2026-11-27 00:04:46 >> Loaded 46 Bonk cards
-2026-11-27 00:04:46 >> Loaded 80 Bonk item cards
-2026-11-27 00:04:46 >> Loaded 32 Bonk glyphs
-2026-11-27 00:04:46 >> Loaded 2 Bonk hidden encounters
-2026-11-27 00:04:46 >> Loaded 48 Bonk boss lines
-2026-11-27 00:04:46 >> Loaded 8 Bonk shop trees
-2026-11-27 00:04:46 >> Loaded 27 Bonk upgrades
-2026-11-27 00:04:46 >> Loaded 24 Bonk talents
-2026-11-27 00:04:46 >> Loaded 2006 Bonk gear items
-2026-11-27 00:04:46 >> Loaded 395 Bonk enemy types with 842 abilities
-2026-11-27 00:04:46 >> Loaded 51 Bonk bolt looks
-2026-11-27 00:04:46 >> Loaded 228 Bonk quests and 20 titles
-2026-11-27 00:04:46 >> Loaded 650 Bonk mastery nodes in 27 trees
-2026-11-27 00:04:46 >> Loaded 17 Bonk pet families
-2026-11-27 00:04:46 >> Loaded 30 Bonk pet abilities
-2026-11-27 00:04:46 >> Loaded 1014 Bonk strings, 995 translations, 0 out of date
-2026-11-27 00:04:46 >> Loaded 2936 Bonk text translations
-2026-11-27 00:04:46 >> Loaded 0 Bonk found gear pieces
-2026-11-27 00:04:46 Loading AH bot
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 78 AuctionHouseBot items
-2026-11-27 00:04:46 Caching player phases (obsolete)
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 0 characters phases
-2026-11-27 00:04:46 Caching player pets ...
-2026-11-27 00:04:46 * Loading table `character_pet`
-2026-11-27 00:04:46 * Loading `pet_spell`
-2026-11-27 00:04:46 * Loading `pet_spell_cooldown`
-2026-11-27 00:04:46 * Loading table `pet_aura`
-2026-11-27 00:04:46 Loading PlayerBot ...
-2026-11-27 00:04:46 >> [PlayerBotMgr] Loading Bots ...
-2026-11-27 00:04:46 Table `playerbot` is empty.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading faction change ...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 7 faction change reputation pairs.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 37 faction change spell pairs.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 249 faction change item pairs.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 91 faction change quest pairs.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 70 faction change mount relacements.
-2026-11-27 00:04:46 Loading loot-disabled map list
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 0 maps with disabled loot
-2026-11-27 00:04:46 Loading `cinematic_waypoints`
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 47 cinematic waypoints from `cinematic_waypoints`
-2026-11-27 00:04:46 Loading spell groups ...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 379 spell group definitions
-2026-11-27 00:04:46 Loading spell group stack rules ...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Loaded 63 spell group stack rules
-2026-11-27 00:04:46 Loading RBAC for chat commands...
-2026-11-27 00:04:46 Loading player premade gear templates ...
-2026-11-27 00:04:46 >> Loaded 86 premade player gear templates
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading player premade items ...
-2026-11-27 00:04:46 >> Loaded 1504 premade player items
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading player premade spec templates ...
-2026-11-27 00:04:46 >> Loaded 53 premade player spec templates
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Loading player premade spells ...
-2026-11-27 00:04:46 >> Loaded 2360 premade player spells
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 Restoring deleted items to players ...
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Restored 0 previously deleted items.
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 ==========================================================
-2026-11-27 00:04:46 Current content is set to Patch 1.12: Drums of War.
-2026-11-27 00:04:46 Supported client build is set to 5875.
-2026-11-27 00:04:46 ==========================================================
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 World initialized.
-2026-11-27 00:04:46 SERVER STARTUP TIME: 0 minutes 2 seconds
-2026-11-27 00:04:46 mangosd process priority class set to HIGH
-2026-11-27 00:04:46 
-2026-11-27 00:04:46 >> Only expired mails (need to be return or delete) or DB table `mail` is empty.
-2026-11-27 00:04:46 [127.0.0.1] Connection accepted
-2026-11-27 00:04:46 [127.0.0.1] Connection closed
-2026-11-27 00:04:52 [127.0.0.1] Connection accepted
-2026-11-27 00:04:52 [127.0.0.1] Connection closed
-2026-11-27 00:04:52 [127.0.0.1] Connection accepted
-2026-11-27 00:06:08 ZoneScriptMgr : 0 scripts on the map 1.
-2026-11-27 00:06:32 Co-op stage: Demonmaster goes to map 1 at -727.3 -2890.4, guest 0
-2026-11-27 00:20:04 Co-op stage: Demonmaster goes to map 0 at -9792.7 1332.4, guest 0
-2026-11-27 00:20:10 ZoneScriptMgr : 0 scripts on the map 0.
-2026-11-27 00:34:06 Co-op stage: Demonmaster goes to map 0 at -10107.0 1270.4, guest 0
-2026-11-27 00:51:51 Co-op stage: Demonmaster goes to map 0 at -10140.4 1197.6, guest 0
-2026-11-27 00:53:16 [127.0.0.1] Connection closed
-2026-11-27 00:53:18 Shutting down world...
-2026-11-27 00:53:19 Unloading all maps...
-2026-11-27 00:53:19 Stop world networking...
-2026-11-27 00:53:19 Stop system timers...
-2026-11-27 00:53:19 Stop IO context...
-2026-11-27 00:53:19 Cleaning character database...
-2026-11-27 00:53:19 Sending queued mail...
-2026-11-27 00:53:19 Closing database connections...
-2026-11-27 00:53:19 Halting process...
-2026-11-27 00:53:19 [NETWORK] Stopping movement broadcaster...
+2026-11-27 23:33:57 Core revision: 6da0998783051403af57 / 2026-11-04 22:07:39 +0100 / Win64 (little-endian) [world-daemon]
+2026-11-27 23:33:57 <Ctrl-C> to stop.
+2026-11-27 23:33:57 Using configuration file mangosd.conf
+2026-11-27 23:33:57 World Database: 127.0.0.1;3306;mangos;*;mangos, sync threads: 1, workers: 1
+2026-11-27 23:33:57 WARNING! Database `mangos` has the following extra migrations:
+2026-11-27 23:33:57 	20261017100000
+2026-11-27 23:33:57 	20261030130000
+2026-11-27 23:33:57 Character Database: 127.0.0.1;3306;mangos;*;characters, sync threads: 1, workers: 1
+2026-11-27 23:33:57 Login Database: 127.0.0.1;3306;mangos;*;realmd, sync threads: 1, workers: 1
+2026-11-27 23:33:57 Logs Database: 127.0.0.1;3306;mangos;*;logs, sync threads: 1, workers: 1
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 World server is running realm ID: 1 Name: "Hordes of Azeroth"
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Using HonorDir ../logs/
+2026-11-27 23:33:57 Using DataDir ../data/
+2026-11-27 23:33:57 WORLD: VMap support included. LineOfSight:1, getHeight:1, indoorCheck:1
+2026-11-27 23:33:57 WORLD: VMap data directory is: ../data/vmaps
+2026-11-27 23:33:57 WORLD: mmap pathfinding enabled
+2026-11-27 23:33:57 * Anticrash : options 0x1c rearm after 60sec
+2026-11-27 23:33:57 * Pathfinding : [ON]
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading MaNGOS strings...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 976 MaNGOS strings from table mangos_string
+2026-11-27 23:33:57 Loading Instance Statistics...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 > Loading table `instance_wipes`
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Table instance_wipes is empty.
+2026-11-27 23:33:57 > Loading table `instance_creature_kills`
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Table instance_creature_kills is empty.
+2026-11-27 23:33:57 > Loading table `instance_custom_counters`
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Table `instance_custom_counters` is empty.
+2026-11-27 23:33:57 Loading saved variables ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 16 saved variables
+2026-11-27 23:33:57 Loading GM security access ...
+2026-11-27 23:33:57 Loading account_banned ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 0 account bans
+2026-11-27 23:33:57 Loading ip_banned ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 0 ip bans
+2026-11-27 23:33:57 Loading Script Names...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 742 Script Names
+2026-11-27 23:33:57 Loading spells ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 33703 spells in 200ms.
+2026-11-27 23:33:57 Loading factions ...
+2026-11-27 23:33:57 >> Loaded 190 factions.
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading faction tamplates ...
+2026-11-27 23:33:57 >> Loaded 314 faction templates.
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading sounds ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 4623 sound entries.
+2026-11-27 23:33:57 Loading taxi nodes ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 88 taxi nodes.
+2026-11-27 23:33:57 Loading area triggers ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 449 area triggers.
+2026-11-27 23:33:57 Loading skill line abilities ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 15031 skill line abilities.
+2026-11-27 23:33:57 Loading mail text templates ...
+2026-11-27 23:33:57 >> Loaded 96 mail text templates
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading pet spell data ...
+2026-11-27 23:33:57 >> Loaded 315 pet spell lists
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading world safe locs facing values ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 94 world safe locs facing values
+2026-11-27 23:33:57 Initialize data stores...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Initialized 45 data stores
+2026-11-27 23:33:57 Using enUS DBC Locale as default. All available DBC locales: enUS 
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading MapTemplate...
+2026-11-27 23:33:57 >> Loaded 44 Map Template definitions
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading AreaTemplate...
+2026-11-27 23:33:57 Loading `spell_mod` and `spell_effect_mod`...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading spell mods ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 524 spell modifications.
+2026-11-27 23:33:57 Loading spell effect mods ...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 414 spell effect modifications.
+2026-11-27 23:33:57 Loading SkillLineAbilityMultiMaps Data...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 5072 SkillLineAbility MultiMaps Data
+2026-11-27 23:33:57 Loading SkillRaceClassInfoMultiMap Data...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 148 SkillRaceClassInfo MultiMap Data
+2026-11-27 23:33:57 Cleaning up instances...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Instances cleaned up
+2026-11-27 23:33:57 Packing instances...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Instance numbers remapped, next instance id is 100
+2026-11-27 23:33:57 Packing groups...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Group Ids remapped, next group id is 1
+2026-11-27 23:33:57 Scheduling normal instance reset...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading Broadcast Texts...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 11124 broadcast texts.
+2026-11-27 23:33:57 Loading Page Texts...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 1257 page texts
+2026-11-27 23:33:57 Loading Game Object Templates...
+2026-11-27 23:33:57 ERROR: Gameobject (Entry: 148500 GoType: 1) have data3=148501 but GO (Entry 148501) have not GAMEOBJECT_TYPE_TRAP (6) type.
+2026-11-27 23:33:57 >> Loaded 9400 gameobject definitions
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 Loading Transport templates...
+2026-11-27 23:33:57 Loading Spell Chain Data...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 2851 spell chain records (1784 from DBC data with 2 req field updates, and 1067 loaded from table)
+2026-11-27 23:33:57 Loading Spell Elixir types...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 60 spell elixir definitions
+2026-11-27 23:33:57 Loading Spell Learn Skills...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 58 Spell Learn Skills from DBC
+2026-11-27 23:33:57 Loading Spell Learn Spells...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 5 spell learn spells + 4735 found in DBC
+2026-11-27 23:33:57 Loading Spell Proc Event conditions...
+2026-11-27 23:33:57 Spell 6346 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
+2026-11-27 23:33:57 Spell 11119 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 180 extra spell proc event conditions +19 custom proc (inc. +0 custom ranks)
+2026-11-27 23:33:57 Loading Spell Proc Item Enchant...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 4 proc item enchant definitions
+2026-11-27 23:33:57 Loading Aggro Spells Definitions...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 411 spell threat entries
+2026-11-27 23:33:57 Loading Spell Enchant Charges...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 19 spell enchant charges
+2026-11-27 23:33:57 Loading NPC Texts...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 3051 npc texts
+2026-11-27 23:33:57 Loading Item Random Enchantments Table...
+2026-11-27 23:33:57 
+2026-11-27 23:33:57 >> Loaded 27686 Item Enchantment definitions
+2026-11-27 23:33:57 Loading Items...
+2026-11-27 23:33:58 >> Loaded 19725 item prototypes
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Item Texts...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 item pages
+2026-11-27 23:33:58 Loading Creature Display Info Addon...
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18375).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18376).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18377).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18378).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18379).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18380).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18381).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18382).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18383).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18384).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18385).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18386).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18387).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18388).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18389).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18390).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18391).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18392).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18393).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18394).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18395).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18396).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18397).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18398).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18399).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18586).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18587).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18588).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18589).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18590).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18591).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18592).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18593).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18594).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18595).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18596).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18597).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18598).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18599).
+2026-11-27 23:33:58 >> Loaded 11144 creature display based info
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Equipment templates...
+2026-11-27 23:33:58 >> Loaded 5140 equipment template
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Creature spells...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2644 creature spell templates.
+2026-11-27 23:33:58 Loading Creature class level stats...
+2026-11-27 23:33:58 Loading Creature templates...
+2026-11-27 23:33:58 >> Loaded 10437 creature definitions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading SpellsScriptTarget...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 1008 Spell Script Targets
+2026-11-27 23:33:58 Loading ItemRequiredTarget...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 37 Item required targets
+2026-11-27 23:33:58 Loading Reputation Reward Rates...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded `reputation_reward_rate`, table is empty!
+2026-11-27 23:33:58 Loading Creature Reputation OnKill Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 640 creature award reputation definitions
+2026-11-27 23:33:58 Loading Reputation Spillover Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 7 reputation_spillover_template
+2026-11-27 23:33:58 Loading Points Of Interest Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 250 Points of Interest definitions
+2026-11-27 23:33:58 Loading Creature Charm Spells...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2638 creature charm spells
+2026-11-27 23:33:58 Loading Pet Create Spells...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 7 pet create spells from table and 332 from DBC
+2026-11-27 23:33:58 Loading Creature Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 66256 creatures
+2026-11-27 23:33:58 Loading Creature Addon Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 3417 creature addons
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >>> Creature Addon Data loaded
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Creature Groups ...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 5781 creature groups in 5 ms
+2026-11-27 23:33:58 Loading Gameobject Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 56628 gameobjects
+2026-11-27 23:33:58 Loading Gameobject Requirements...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 19 GameObjects requirements
+2026-11-27 23:33:58 Loading Gameobject Display Info Addon...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 1618 GameObject display based info
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading CreatureLinking Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 > Loading table `creature_linking_template`
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded creature linking for 13 creature-entries
+2026-11-27 23:33:58 > Loading table `creature_linking`
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded creature linking for 407 creature-Guids
+2026-11-27 23:33:58 Loading Objects Pooling Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 7423 objects pools
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 370 creatures in pools from `pool_creature` and `pool_creature_template`
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 32550 gameobject in pools from `pool_gameobject` and `pool_gameobject_template`
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 5583 pools in mother pools
+2026-11-27 23:33:58 Loading Weather Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 33 weather definitions
+2026-11-27 23:33:58 Loading Quests...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 4433 quests definitions
+2026-11-27 23:33:58 Loading Quests Relations...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 262 quest relations from gameobject_questrelation
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 209 quest relations from gameobject_involvedrelation
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 3898 quest relations from creature_questrelation
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 4060 quest relations from creature_involvedrelation
+2026-11-27 23:33:58 >>> Quests Relations loaded
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Quests Greetings...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 204 quest greetings.
+2026-11-27 23:33:58 Loading Trainer Greetings...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 491 trainer greetings.
+2026-11-27 23:33:58 Loading Game Event Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 94 game events
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 3052 creatures in game events
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 12102 gameobjects in game events
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 576 creature reactions at game events
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 69 quest additions in game events
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 start/end game event mails
+2026-11-27 23:33:58 >>> Game Event Data loaded
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Conditions ...
+2026-11-27 23:33:58 >> Loaded 1882 Condition definitions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Creature Respawn Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 creature respawn time.
+2026-11-27 23:33:58 Loading Gameobject Respawn Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 gameobject respawn time.
+2026-11-27 23:33:58 Loading SpellArea Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 71 spell area requirements
+2026-11-27 23:33:58 Loading AreaTrigger teleports...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 115 area trigger teleport definitions
+2026-11-27 23:33:58 Loading Quest Area Triggers...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 50 quest trigger points
+2026-11-27 23:33:58 Loading Tavern Area Triggers...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 42 tavern triggers
+2026-11-27 23:33:58 Loading Battleground Entrance Area Triggers...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 6 battleground entrance area trigger definitions
+2026-11-27 23:33:58 Loading AreaTrigger script names...
+2026-11-27 23:33:58 areatrigger_scripts :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2 script definitions
+2026-11-27 23:33:58 Loading event id script names...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 7 scripted event id
+2026-11-27 23:33:58 Loading Graveyard-zone links...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 189 graveyard-zone links
+2026-11-27 23:33:58 Loading spell target destination coordinates...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 307 spell target destination coordinates
+2026-11-27 23:33:58 Loading spell pet auras...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 23 spell pet auras
+2026-11-27 23:33:58 Loading spell cones...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 102 spell cones
+2026-11-27 23:33:58 Loading Player Create Info & Level Stats...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 40 player create definitions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 256 custom player create items
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 1513 player create spells
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 214 player create actions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 540 level health/mana definitions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2400 level stats definitions
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 60 xp for level definitions
+2026-11-27 23:33:58 >>> Player Create Info & Level Stats loaded
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Exploration BaseXP Data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 61 BaseXP definitions
+2026-11-27 23:33:58 Loading Pet Name Parts...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 260 pet name parts
+2026-11-27 23:33:58 Cleaning character database...
+2026-11-27 23:33:58 Loading character cache data...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 cached player data ...
+2026-11-27 23:33:58 Loading the max pet number...
+2026-11-27 23:33:58 Loading pet level stats...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 483 level pet stats definitions
+2026-11-27 23:33:58 Loading Player Corpses...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 0 corpses
+2026-11-27 23:33:58 Loading Loot Tables...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 creature_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 227232 loot definitions (4144 templates)
+2026-11-27 23:33:58 fishing_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2484 loot definitions (360 templates)
+2026-11-27 23:33:58 gameobject_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 13839 loot definitions (574 templates)
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 753 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2599 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2573 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9937 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9946 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9952 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9943 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2596 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2595 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2594 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2597 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 14733 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 17461 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 item_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2662 loot definitions (182 templates)
+2026-11-27 23:33:58 mail_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 72 loot definitions (72 templates)
+2026-11-27 23:33:58 pickpocketing_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 6901 loot definitions (1559 templates)
+2026-11-27 23:33:58 skinning_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2968 loot definitions (822 templates)
+2026-11-27 23:33:58 disenchant_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 81 loot definitions (36 templates)
+2026-11-27 23:33:58 reference_loot_template :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 9976 loot definitions (621 templates)
+2026-11-27 23:33:58 >>> Loot Tables loaded
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 Loading Skill Fishing base level requirements...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 56 areas for fishing base skill level
+2026-11-27 23:33:58 Loading Npc Text Id...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 8 NpcTextId 
+2026-11-27 23:33:58 Loading Gossip scripts...
+2026-11-27 23:33:58 gossip_scripts :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 522 script definitions
+2026-11-27 23:33:58 Loading Gossip menus...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 3253 gossip_menu entries
+2026-11-27 23:33:58 Loading Gossip menu options...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 2654 gossip_menu_option entries
+2026-11-27 23:33:58 Loading Vendors...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 589 vendor template items
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 13161 vendor items
+2026-11-27 23:33:58 Loading Trainers...
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 1382 trainer template spells
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 4670 trainer spells
+2026-11-27 23:33:58 Loading Waypoint scripts...
+2026-11-27 23:33:58 creature_movement_scripts :
+2026-11-27 23:33:58 
+2026-11-27 23:33:58 >> Loaded 1788 script definitions
+2026-11-27 23:33:58 Loading Waypoints...
+2026-11-27 23:33:58 
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Paths loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Waypoints and behaviors loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >>> Loaded 3330 paths, 76370 nodes and 0 behaviors
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Path templates loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Waypoint templates loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >>> Loaded 288 path templates with 9648 nodes and 0 behaviors
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Paths loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Special waypoints loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >>> Loaded 88 paths, 1496 nodes and 0 behaviors
+2026-11-27 23:33:59 Loading Localization strings...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 11046 broadcast text locales.
+2026-11-27 23:33:59 Table `locales_creature` has data for not existed creature entry 900150, skipped.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 10372 creature locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 8667 gameobject locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 19512 item locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 4251 quest locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 1238 PageText locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 1458 gossip_menu_option locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 195 points_of_interest locale strings
+2026-11-27 23:33:59 >> Loaded 1081 area locale strings
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 48 areatrigger locale strings
+2026-11-27 23:33:59 >>> Localization strings loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading Auctions...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 auction items
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 auctions. DB table `auction` is empty.
+2026-11-27 23:33:59 >>> Auctions loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading Guilds...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 guild definitions
+2026-11-27 23:33:59 Loading Petitions...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 petitions
+2026-11-27 23:33:59 Loading Groups...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 group definitions
+2026-11-27 23:33:59 Loading ReservedNames...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 9 reserved player names
+2026-11-27 23:33:59 Loading GameObjects for quests...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 666 GameObjects for quests
+2026-11-27 23:33:59 Loading BattleMasters...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 24 battlemaster entries
+2026-11-27 23:33:59 Loading BattleGround event indexes...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 2399 battleground eventindexes
+2026-11-27 23:33:59 Loading GameTeleports...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 997 GameTeleports
+2026-11-27 23:33:59 Loading Taxi path transitions...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 355 taxi path transitions
+2026-11-27 23:33:59 Loading GM tickets and surveys...
+2026-11-27 23:33:59 >> Loaded 0 GM tickets. DB table `gm_ticket` is empty!
+2026-11-27 23:33:59 >> Loaded GM Survey count from database in 0 ms
+2026-11-27 23:33:59 Returning old mails...
+2026-11-27 23:33:59 Loading Scripts...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 quest_start_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 666 script definitions
+2026-11-27 23:33:59 quest_end_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 1696 script definitions
+2026-11-27 23:33:59 spell_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 40 script definitions
+2026-11-27 23:33:59 creature_spells_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 18 script definitions
+2026-11-27 23:33:59 gameobject_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 139 script definitions
+2026-11-27 23:33:59 event_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 379 script definitions
+2026-11-27 23:33:59 generic_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 3057 script definitions
+2026-11-27 23:33:59 creature_ai_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 7331 script definitions
+2026-11-27 23:33:59 areatrigger_scripts :
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 2 script definitions
+2026-11-27 23:33:59 >>> Scripts loaded
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Checking all script texts...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading CreatureEventAI Events...
+2026-11-27 23:33:59 CreatureEventAI:  Creature 15262 is using percentage event(1526204) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
+2026-11-27 23:33:59 CreatureEventAI:  Creature 15338 is using percentage event(1533804) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 6179 CreatureEventAI events.
+2026-11-27 23:33:59 Initializing Scripts...
+2026-11-27 23:33:59 Loading Script Texts...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 46 string templates from script_texts
+2026-11-27 23:33:59 Loading Script Texts additional data...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 46 additional Script Texts data.
+2026-11-27 23:33:59 Loading Custom Texts...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 string templates. DB table `custom_texts` is empty.
+2026-11-27 23:33:59 Loading Custom Texts additional data...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 additional Custom Texts data. DB table `custom_texts` is empty.
+2026-11-27 23:33:59 Loading Script Waypoints for 69 creature(s)...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 3086 Script Waypoint nodes.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 1 Escort Creature Data
+2026-11-27 23:33:59 Loading C++ scripts
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 742 C++ Scripts.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading aura removal on map change definitions
+2026-11-27 23:33:59 > Loading table `instance_buff_removal`
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Table instance_buff_removal is empty.
+2026-11-27 23:33:59 DEBUG:: Initialize game time and timers
+2026-11-27 23:33:59 Loading GameObject models ...
+2026-11-27 23:33:59 Starting Map System
+2026-11-27 23:33:59 Starting BattleGround System
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 3 battlegrounds
+2026-11-27 23:33:59 Starting ZoneScripts
+2026-11-27 23:33:59 Deleting expired bans...
+2026-11-27 23:33:59 Initialize Honor Maintenance system...
+2026-11-27 23:33:59 Starting Game Event system...
+2026-11-27 23:33:59 Next game event check in 86401 seconds.
+2026-11-27 23:33:59 Game Event system initialized.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading disabled spells
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 1 disabled spells from `spell_disabled`
+2026-11-27 23:33:59 Loading anticheat library
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading warden checks...
+2026-11-27 23:33:59 >> 97 Warden scans loaded from world database
+2026-11-27 23:33:59 >> 12 scripted Warden scans loaded from anticheat module
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading warden modules...
+2026-11-27 23:33:59 Loading auto broadcast
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 AutoBroadCast message
+2026-11-27 23:33:59 Loading Vanilla Bonk tables
+2026-11-27 23:33:59 >> Loaded 3 Bonk tiers
+2026-11-27 23:33:59 >> Loaded 5 Bonk enemy archetypes
+2026-11-27 23:33:59 >> Loaded 18 Bonk timeline blocks
+2026-11-27 23:33:59 >> Loaded 6 Bonk scaling points
+2026-11-27 23:33:59 >> Loaded 32 Bonk maps
+2026-11-27 23:33:59 >> Loaded world map art for 29 Bonk zones
+2026-11-27 23:33:59 >> Loaded 817 Bonk map creatures
+2026-11-27 23:33:59 >> Loaded 128 Bonk map events
+2026-11-27 23:33:59 >> Loaded 15 Bonk keywords
+2026-11-27 23:33:59 >> Loaded 0 Bonk projectiles.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 501 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 504 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 506 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 507 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 514 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 515 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 520 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 521 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 524 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 525 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 526 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 527 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 601 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 610 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 611 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 614 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 615 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 632 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 633 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 634 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 635 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 703 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 718 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 719 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 801 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 803 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 807 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 809 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 810 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 811 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 812 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 817 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 818 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 821 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 822 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 829 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 830 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 831 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 832 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 833 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 834 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 835 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 836 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 837 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 838 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 906 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 923 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 924 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1007 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1008 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1011 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1012 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1026 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1027 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1028 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1029 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1034 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1035 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1036 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1037 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 713 applies no keyword, so more stacks would do nothing; skipped.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 710 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 732 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 733 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 802 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 803 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 807 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 819 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 820 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 821 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 822 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 829 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 830 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 >> Loaded 315 Bonk weapons with 799 upgrades
+2026-11-27 23:33:59 >> Loaded 18 Bonk passives
+2026-11-27 23:33:59 >> Loaded 7 Bonk power-ups
+2026-11-27 23:33:59 >> Loaded 46 Bonk cards
+2026-11-27 23:33:59 >> Loaded 80 Bonk item cards
+2026-11-27 23:33:59 >> Loaded 32 Bonk glyphs
+2026-11-27 23:33:59 >> Loaded 2 Bonk hidden encounters
+2026-11-27 23:33:59 >> Loaded 48 Bonk boss lines
+2026-11-27 23:33:59 >> Loaded 8 Bonk shop trees
+2026-11-27 23:33:59 >> Loaded 27 Bonk upgrades
+2026-11-27 23:33:59 >> Loaded 24 Bonk talents
+2026-11-27 23:33:59 >> Loaded 2006 Bonk gear items
+2026-11-27 23:33:59 >> Loaded 395 Bonk enemy types with 842 abilities
+2026-11-27 23:33:59 >> Loaded 51 Bonk bolt looks
+2026-11-27 23:33:59 >> Loaded 228 Bonk quests and 20 titles
+2026-11-27 23:33:59 >> Loaded 650 Bonk mastery nodes in 27 trees
+2026-11-27 23:33:59 >> Loaded 17 Bonk pet families
+2026-11-27 23:33:59 >> Loaded 30 Bonk pet abilities
+2026-11-27 23:33:59 >> Loaded 1014 Bonk strings, 995 translations, 0 out of date
+2026-11-27 23:33:59 >> Loaded 2936 Bonk text translations
+2026-11-27 23:33:59 >> Loaded 0 Bonk found gear pieces
+2026-11-27 23:33:59 Loading AH bot
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 78 AuctionHouseBot items
+2026-11-27 23:33:59 Caching player phases (obsolete)
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 characters phases
+2026-11-27 23:33:59 Caching player pets ...
+2026-11-27 23:33:59 * Loading table `character_pet`
+2026-11-27 23:33:59 * Loading `pet_spell`
+2026-11-27 23:33:59 * Loading `pet_spell_cooldown`
+2026-11-27 23:33:59 * Loading table `pet_aura`
+2026-11-27 23:33:59 Loading PlayerBot ...
+2026-11-27 23:33:59 >> [PlayerBotMgr] Loading Bots ...
+2026-11-27 23:33:59 Table `playerbot` is empty.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading faction change ...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 7 faction change reputation pairs.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 37 faction change spell pairs.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 249 faction change item pairs.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 91 faction change quest pairs.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 70 faction change mount relacements.
+2026-11-27 23:33:59 Loading loot-disabled map list
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 0 maps with disabled loot
+2026-11-27 23:33:59 Loading `cinematic_waypoints`
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 47 cinematic waypoints from `cinematic_waypoints`
+2026-11-27 23:33:59 Loading spell groups ...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 379 spell group definitions
+2026-11-27 23:33:59 Loading spell group stack rules ...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Loaded 63 spell group stack rules
+2026-11-27 23:33:59 Loading RBAC for chat commands...
+2026-11-27 23:33:59 Loading player premade gear templates ...
+2026-11-27 23:33:59 >> Loaded 86 premade player gear templates
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading player premade items ...
+2026-11-27 23:33:59 >> Loaded 1504 premade player items
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading player premade spec templates ...
+2026-11-27 23:33:59 >> Loaded 53 premade player spec templates
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Loading player premade spells ...
+2026-11-27 23:33:59 >> Loaded 2360 premade player spells
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 Restoring deleted items to players ...
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Restored 0 previously deleted items.
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 ==========================================================
+2026-11-27 23:33:59 Current content is set to Patch 1.12: Drums of War.
+2026-11-27 23:33:59 Supported client build is set to 5875.
+2026-11-27 23:33:59 ==========================================================
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 World initialized.
+2026-11-27 23:33:59 SERVER STARTUP TIME: 0 minutes 2 seconds
+2026-11-27 23:33:59 mangosd process priority class set to HIGH
+2026-11-27 23:33:59 
+2026-11-27 23:33:59 >> Only expired mails (need to be return or delete) or DB table `mail` is empty.
+2026-11-27 23:34:00 [127.0.0.1] Connection accepted
+2026-11-27 23:34:00 [127.0.0.1] Connection closed
+2026-11-27 23:34:03 [127.0.0.1] Connection accepted
+2026-11-27 23:34:03 [127.0.0.1] Connection closed
+2026-11-27 23:34:03 [127.0.0.1] Connection accepted
+2026-11-27 23:35:08 ZoneScriptMgr : 0 scripts on the map 1.
+2026-11-27 23:35:35 Co-op stage: Demonflex goes to map 0 at -9130.0 -3288.0, guest 0
+2026-11-27 23:35:35 ZoneScriptMgr : 0 scripts on the map 0.
+2026-11-27 23:49:25 Co-op stage: Demonflex goes to map 1 at -2544.4 -2290.1, guest 0
+2026-11-27 23:49:53 Co-op stage: Demonflex goes to map 1 at 5927.8 262.8, guest 0
+2026-11-28 00:02:34 [127.0.0.1] Connection closed
+2026-11-28 00:02:35 Shutting down world...
+2026-11-28 00:02:35 Unloading all maps...
+2026-11-28 00:02:36 Stop world networking...
+2026-11-28 00:02:36 Stop system timers...
+2026-11-28 00:02:36 Stop IO context...
+2026-11-28 00:02:36 Cleaning character database...
+2026-11-28 00:02:36 Sending queued mail...
+2026-11-28 00:02:36 Closing database connections...
+2026-11-28 00:02:36 Halting process...
+2026-11-28 00:02:36 [NETWORK] Stopping movement broadcaster...

@@ -1,135 +1,135 @@
-2026-11-27 00:04:43 WARNING! Database `mangos` has the following extra migrations:
-2026-11-27 00:04:43 	20261017100000
-2026-11-27 00:04:43 	20261030130000
-2026-11-27 00:04:44 ERROR: Gameobject (Entry: 148500 GoType: 1) have data3=148501 but GO (Entry 148501) have not GAMEOBJECT_TYPE_TRAP (6) type.
-2026-11-27 00:04:44 Spell 6346 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
-2026-11-27 00:04:44 Spell 11119 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18375).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18376).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18377).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18378).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18379).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18380).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18381).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18382).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18383).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18384).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18385).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18386).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18387).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18388).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18389).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18390).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18391).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18392).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18393).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18394).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18395).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18396).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18397).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18398).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18399).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18586).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18587).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18588).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18589).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18590).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18591).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18592).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18593).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18594).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18595).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18596).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18597).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18598).
-2026-11-27 00:04:44 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18599).
-2026-11-27 00:04:44 >> Loaded `reputation_reward_rate`, table is empty!
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 753 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2599 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2573 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9937 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9946 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9952 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 9943 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2596 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2595 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2594 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 2597 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 14733 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table 'gameobject_loot_template' entry 17461 (gameobject lootid) not exist but used as loot id in DB.
-2026-11-27 00:04:45 Table `locales_creature` has data for not existed creature entry 900150, skipped.
-2026-11-27 00:04:46 CreatureEventAI:  Creature 15262 is using percentage event(1526204) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
-2026-11-27 00:04:46 CreatureEventAI:  Creature 15338 is using percentage event(1533804) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 501 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 504 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 506 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 507 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 514 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 139 of weapon 515 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 520 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17 of weapon 521 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 524 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 8122 of weapon 525 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 526 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 9484 of weapon 527 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 601 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 610 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 611 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 614 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 13877 of weapon 615 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 632 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 11327 of weapon 633 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 634 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 5277 of weapon 635 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 703 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 718 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: weapon 719 consumes keyword 11, which deals no damage over time; it consumes nothing.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 801 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 803 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 807 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 809 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 810 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 811 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 812 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 817 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20271 of weapon 818 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 821 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20293 of weapon 822 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 829 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 20165 of weapon 830 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 831 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 642 of weapon 832 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 833 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 7294 of weapon 834 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 835 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 853 of weapon 836 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 837 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 17286 of weapon 838 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 906 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 923 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 689 of weapon 924 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1007 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1008 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1011 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1012 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1026 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 22842 of weapon 1027 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1028 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 774 of weapon 1029 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1034 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 740 of weapon 1035 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1036 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon`: spell 467 of weapon 1037 has no damage effect; it will use its own values.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 713 applies no keyword, so more stacks would do nothing; skipped.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 710 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 732 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 733 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 802 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 803 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 807 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 819 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 820 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 821 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 822 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 829 has no upgrades; its Rare and Epic ranks add damage only.
-2026-11-27 00:04:46 Table `bonk_weapon_upgrade`: weapon 830 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:57 WARNING! Database `mangos` has the following extra migrations:
+2026-11-27 23:33:57 	20261017100000
+2026-11-27 23:33:57 	20261030130000
+2026-11-27 23:33:57 ERROR: Gameobject (Entry: 148500 GoType: 1) have data3=148501 but GO (Entry 148501) have not GAMEOBJECT_TYPE_TRAP (6) type.
+2026-11-27 23:33:57 Spell 6346 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
+2026-11-27 23:33:57 Spell 11119 listed in `spell_proc_event` has exactly same proc flags as in spell.dbc, field value redundant
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18375).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18376).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18377).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18378).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18379).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18380).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18381).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18382).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18383).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18384).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18385).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18386).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18387).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18388).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18389).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18390).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18391).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18392).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18393).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18394).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18395).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18396).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18397).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18398).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18399).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18586).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18587).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18588).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18589).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18590).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18591).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18592).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18593).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18594).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18595).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18596).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18597).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18598).
+2026-11-27 23:33:58 ERROR: Table `creature_display_info_addon` has data for nonexistent display id (18599).
+2026-11-27 23:33:58 >> Loaded `reputation_reward_rate`, table is empty!
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 753 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2599 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2573 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9937 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9946 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9952 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 9943 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2596 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2595 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2594 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 2597 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 14733 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:58 Table 'gameobject_loot_template' entry 17461 (gameobject lootid) not exist but used as loot id in DB.
+2026-11-27 23:33:59 Table `locales_creature` has data for not existed creature entry 900150, skipped.
+2026-11-27 23:33:59 CreatureEventAI:  Creature 15262 is using percentage event(1526204) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
+2026-11-27 23:33:59 CreatureEventAI:  Creature 15338 is using percentage event(1533804) with param1 <= param2 (MaxPercent <= MinPercent). Event will never trigger! 
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 501 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 504 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 506 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 507 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 514 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 139 of weapon 515 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 520 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17 of weapon 521 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 524 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 8122 of weapon 525 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 526 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 9484 of weapon 527 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 601 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 610 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 611 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 614 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 13877 of weapon 615 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 632 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 11327 of weapon 633 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 634 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 5277 of weapon 635 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 703 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 718 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: weapon 719 consumes keyword 11, which deals no damage over time; it consumes nothing.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 801 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 803 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 807 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 809 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 810 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 811 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 812 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 817 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20271 of weapon 818 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 821 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20293 of weapon 822 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 829 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 20165 of weapon 830 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 831 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 642 of weapon 832 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 833 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 7294 of weapon 834 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 835 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 853 of weapon 836 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 837 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 17286 of weapon 838 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 906 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 923 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 689 of weapon 924 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1007 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1008 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1011 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1012 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1026 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 22842 of weapon 1027 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1028 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 774 of weapon 1029 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1034 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 740 of weapon 1035 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1036 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon`: spell 467 of weapon 1037 has no damage effect; it will use its own values.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 713 applies no keyword, so more stacks would do nothing; skipped.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 710 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 732 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 733 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 802 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 803 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 807 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 819 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 820 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 821 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 822 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 829 has no upgrades; its Rare and Epic ranks add damage only.
+2026-11-27 23:33:59 Table `bonk_weapon_upgrade`: weapon 830 has no upgrades; its Rare and Epic ranks add damage only.
